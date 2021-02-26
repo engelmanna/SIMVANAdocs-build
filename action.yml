@@ -2,5 +2,8 @@ name: "SIMVANA Docs Build Action"
 description: "Build the SIMVANA docs site"
 author: "engelmanna@gmail.com"
 runs:
-  using: "docker"
-  image: "Dockerfile"
+  using: docker
+  image: Dockerfile
+branding:
+  icon: archive
+  color: blue
