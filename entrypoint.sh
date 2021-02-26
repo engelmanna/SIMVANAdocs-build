@@ -6,6 +6,6 @@ set -e # stop executing after error
 echo "*** Starting mkdocs build ***"
 
 cd site/
-mkdocs build -d ./build/
+mkdocs build -d ../build/
 
 echo "*** Finish mkdocs build ***"
