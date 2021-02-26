@@ -8,4 +8,4 @@ RUN apk add build-base
 RUN pip install --quiet --no-cache-dir mkdocs
 RUN pip install --quiet --no-cache-dir mkdocs-material
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
