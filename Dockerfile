@@ -5,7 +5,7 @@ RUN chmod +x /entrypoint.sh
 
 RUN apk add build-base
 
-RUN pip install --quiet --no-cache-dir mkdocs
-RUN pip install --quiet --no-cache-dir mkdocs-material
+RUN pip install --quiet --no-cache-dir mkdocs==1.1.2
+RUN pip install --quiet --no-cache-dir mkdocs-material==6.2.8
 
 ENTRYPOINT ["/entrypoint.sh"]
